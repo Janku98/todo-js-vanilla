@@ -1,0 +1,42 @@
+.container{
+    background-color: gray;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px;
+}
+
+.todo-container{
+    margin-top: 50px;
+    border: 1px solid black;
+    min-height: 80px;
+}
+
+.listado{
+    border: 1px solid white;
+    height: 100px;
+    width: 100%;
+}
+
+
+.form-todo{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.text-title{
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-right: 20px;
+}
+.text-title > input{
+    width: 100%;
+}
+
+
+.todo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}

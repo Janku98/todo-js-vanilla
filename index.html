@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ToDo Challenge!</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/dark.css">
+  </head>
+
+  <body>
+    <div class="container">
+        <form onsubmit="return createTodo()" class="form-todo">
+            <p class="text-title">Nuevo ToDo:</p>
+            <input type="text" name="primary" id="primary"/>
+            <button id="button">Create ToDo</button>
+        </form>
+        
+        <div class="todo-container" id="todo-container">
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
